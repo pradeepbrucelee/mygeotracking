@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="mygeotracking">
+	
+	<listeners>
+		<listener class-name="com.mygeo.qa.extendreport.ExtentReporterNG" />
+    </listeners>
+    
+	<test name="MY GEO Tracking Login LogOut ">
+		<classes>
+			<class name="com.mygeo.qa.test.LoginTest" />
+		</classes>
+	</test>
+</suite>
